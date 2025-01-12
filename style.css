@@ -1,5 +1,5 @@
 :root{
-    --bcg-color: #001122;
+    --bcg-color: #0080ff;
     --primary-color: #155e75;
     --border-radius: 8px;
     --secondary-color: #fff;
@@ -91,6 +91,24 @@ body{
     border: 0.5px solid var(--border-color);
     border-radius: var(--border-radius);
 }
+
+.linkedin-link{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    text-decoration: none;
+  }
+
+.linkedin-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+.linkedin-logo:hover {
+    transform: scale(1.1);
+  }
 
 @media screen and (max-width: 520px){
     .box{
